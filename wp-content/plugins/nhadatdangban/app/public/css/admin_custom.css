@@ -1,0 +1,116 @@
+.js .postbox .hndle {
+    cursor:default;
+}
+#poststuff h3, .metabox-holder h3 {
+    font-size: 12px;
+}
+#footer,#new_role,#changeit,#add-mvc_blog,#add-category,#wp-admin-bar-updates,.update-nag {	display: none !important; }
+a, a:visited, a:focus, a:active, a:hover{
+    outline:0 none !important;
+}
+form .row label {
+    display: inline-block;
+    width: 180px;
+    float: left;
+	line-height: 26px;
+}
+
+.wp-core-ui .button-primary, .wp-core-ui .button {
+    line-height: 21px !important;
+}
+
+#icon-lookups { background-image:url('../images/lookups_32.png'); }
+
+form img { margin-left: 2px;}
+form div div { margin-left: 131px; margin-bottom: 5px;}
+
+form input[type=text], form textarea {
+    display: inline-block;
+    width: 300px;
+}
+
+th {text-align:center;}
+
+form ul {
+    padding-left: 148px;
+    width: 490px;
+    margin: 5px;
+}
+form ul li {
+	margin-bottom: 3px;
+}
+form input.datepicker {
+    width: 150px;
+}
+form input.timepicker {
+    width: 100px;
+}
+.inside div.row {
+    margin-bottom: 5px;
+}
+form input.js-name-input {
+    width: 124px;
+}
+form input.js-attachment-input {
+    width: 290px;
+}
+
+form .riquired {
+    color:red;
+}
+
+form .add-update input[type=submit] {
+    width: 62px;
+    height: 30px;
+    cursor: pointer;
+}
+
+table.widefat .publish {
+    width: 16px;
+    float: left;
+    margin-right: 5px;
+}
+table.widefat .td-image-list-slider {
+    width: 150px;
+    height: auto;
+}
+table.widefat .td-image-list-news {
+    width: 150px;
+    height: auto;
+}
+div#poststuff .image-edit-slider {
+    max-width: 200px;
+    height: auto;
+}
+div#poststuff .image-edit-news {
+    max-width: 200px;
+    height: auto;
+}
+div#poststuff .image-edit-slider {
+    max-width: 200px;
+    height: auto;
+}
+/** form search **/
+#q, #user-search-input {
+    width: 160px !important;
+}
+
+.calendar img {
+    margin-top: 5px;
+}
+
+.ui-datepicker-current-day .ui-state-active { background: #ffff00; }
+
+/* LOADING */
+.loading-indicator {
+	height: 80px;
+	width: 80px;
+	background: url('../images/loading.gif') no-repeat center center;
+}
+
+.loading-indicator-overlay {
+	background-color: whitesmoke;
+	opacity: 0.65;
+	filter: alpha(opacity = 65);
+}
+/* END:LOADING */
