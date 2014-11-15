@@ -6,7 +6,7 @@
  * are used in the theme as custom template tags. Others are attached to action and
  * filter hooks in WordPress to change core functionality.
  * @package WordPress
- * @subpackage ocs
+ * @subpackage nhadatdangban
  * @since Bao Uyen Shop
  */
 require_once get_template_directory() . "/config/contants.php";
@@ -20,9 +20,9 @@ require_once get_template_directory() . "/inc/common.php";
 /**
  * Tell WordPress to run freshzone_setup() when the 'after_setup_theme' hook is run.
  */
-add_action( 'after_setup_theme', 'ocs_setup' );
+add_action( 'after_setup_theme', 'nhadatdangban_setup' );
 
-if ( ! function_exists( 'ocs_setup' ) ):
+if ( ! function_exists( 'nhadatdangban_setup' ) ):
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -43,7 +43,7 @@ if ( ! function_exists( 'ocs_setup' ) ):
  *
  * @since Bao Uyen Shop
  */
-function ocs_setup() {
+function nhadatdangban_setup() {
 
 	/* Make Bodog available for translation.
 	 * Translations can be added to the /languages/ directory.
