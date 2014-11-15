@@ -1,0 +1,5 @@
+.form-table tr:nth-of-type(5), 
+.form-table tr:nth-of-type(9), 
+.form-table td .description {
+    display:none;
+}
